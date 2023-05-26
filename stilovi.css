@@ -1,0 +1,122 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 100px;
+  font-family: 'lobster', cursive;
+  background-color: rgb(172, 32, 51);
+}
+
+.naslov {
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3em;
+  color: aliceblue;
+}
+
+nav {
+  float: left;
+  width: 15%;
+  position: fixed;
+}
+
+nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  width: 95%;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  font-size: 0.9em;
+  margin: 5px;
+  padding: 8px;
+  background: #d45308;
+}
+
+nav ul li:hover {
+  background-color: #ca5a7c;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+section {
+  line-height: 1.5;
+  float: right;
+  width: 85%;
+}
+
+section h2 {
+  margin-bottom: 5px;
+}
+
+section p {
+  margin-top: 0px;
+  padding-top: 0px
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(172, 32, 51);
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+
+footer p {
+  font: darkblue;
+  margin: 0px;
+  padding-top: 8px;
+}
+
+.logo {
+  float: left;
+  width: 260px;
+  margin-right: 20px
+}
+
+.slika2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.slika2 img:hover {
+  box-shadow:  2px 2px 5px #000;
+}
+
+.napomena {
+  position: relative;
+  background-color: lightblue;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+}
+
+.ugao {
+  
+}
+
+.napomena p {
+  padding-left: 30px;
+  text-indent: 30px;
+}
